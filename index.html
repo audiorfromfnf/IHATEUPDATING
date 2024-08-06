@@ -1,8 +1,58 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta name="twitter:card" content="summary_large_image">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Rich Image for Discord</title>
+    <!-- Open Graph meta tags -->
+    <meta property="og:title" content="My Rich Image">
+    <meta property="og:description" content="Here’s some description about the image and the content.">
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/1222992381213671475/1268942229691568139/latest.png?ex=66b3880b&is=66b2368b&hm=24d43f9f9dd99adb9cb53d49aeea19426f9d3015a436f693228f3e75f0db571f&">
+    <meta property="og:url" content="https://audiorfromfnf.github.io/test/">
+    <meta property="og:type" content="website">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .card {
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            max-width: 600px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card-content {
+            padding: 20px;
+        }
+        .card-title {
+            font-size: 24px;
+            margin: 0;
+        }
+        .card-description {
+            font-size: 16px;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-
+    <div class="card">
+        <img src="https://example.com/your-image-url.jpg" alt="Rich Image">
+        <div class="card-content">
+            <h1 class="card-title">This is a Rich Image</h1>
+            <p class="card-description">Here’s some description about the image and the content.</p>
+        </div>
+    </div>
 </body>
 </html>
